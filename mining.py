@@ -17,9 +17,9 @@ else:
 
 coding = 'UTF-8'
 #
-# working_folder = os.getcwd()
+working_folder = os.getcwd()
 # setting working folder to cwd for markdown
-working_folder = '.{}'.format(separator)
+# working_folder = '.{}'.format(separator)
 data_folder_name = 'Data'
 avatar_folder_name = 'Avatar'
 mechanical_factory_folder_name = 'Map'
