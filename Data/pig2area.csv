@@ -1,52 +1,53 @@
-,矿区,宝石,开采等级,耗费能量,开采时间,猪种,其他获取方式,是否有勋章
-0,摩尔城堡,黑曜石,初级,5.0,10.0,福仔,无,是
-1,爱心教堂,萤石,初级,5.0,12.0,憨憨,无,是
-2,阳光牧场,锆石,初级,6.0,15.0,小眉,无,是
-3,摩尔足球场,日光石,初级,6.0,18.0,阿凡达达,无,是
-4,开心农场,月光石,初级,8.0,20.0,二师兄,无,是
-5,米勒大道,绿玉髓,初级,8.0,22.0,小秋,无,是
-6,淘淘乐街,虎眼石,初级,10.0,25.0,小霸王,无,是
-7,城堡露天花园,蛋白石,初级,10.0,28.0,大师兄,无,是
-8,咕噜艺术街,云母,初级,10.0,30.0,蝙蝠侠,无,是
-9,神秘湖码头,碧玺,中级,12.0,60.0,美羊羊,无,是
-10,神秘湖,翡翠,中级,12.0,65.0,红肠兄,无,是
-11,天空树,琥珀,中级,14.0,70.0,小雪花,无,是
-12,粒粒小广场,托帕石,中级,14.0,75.0,魔法小星,无,是
-13,西部游乐场,玛瑙,中级,16.0,80.0,哈利波波,无,是
-14,东部游乐场,石榴石,中级,16.0,85.0,熊猫宝宝,无,是
-15,交通署,天河石,中级,18.0,90.0,圣诞袜袜,无,否
-16,拉姆运动场,橄榄石,中级,18.0,100.0,狮仔吼吼,无,否
-17,拉姆学院,汉白玉,中级,20.0,110.0,音乐发烧友,无,是
-18,摩尔大学,紫水晶,中级,20.0,120.0,企鹅呆呆,任务“王子与黑猫-万圣之夜”获取,否
-19,摩尔拉雅山顶,天青石,高级,22.0,180.0,企小贱,无,否
-20,摩尔拉雅滑冰场,欧泊,高级,22.0,195.0,飘飘雪猪,无,否
-21,摩尔拉雅山脚,祖母绿,高级,24.0,210.0,,,
-22,虫虫谷,尖晶石,高级,24.0,225.0,心心小象仔,无,是
-23,尼尔拉塔,海蓝宝石,高级,24.0,240.0,肥肥天使,无,是
-24,浆果丛林,红宝石,高级,26.0,255.0,燕尾蝶,无,是
-25,前哨站,青绿猫眼,高级,28.0,270.0,,,
-26,黑森林,蓝宝石,高级,30.0,285.0,,,
-27,库拉城堡,钻石,高级,30.0,300.0,,,
-28,,无,,,,香香公主,阿凡达达、红肠兄、小雪花猪仔变异,是
-29,,无,,,,祥云,小眉、魔法小星猪仔变异,是
-30,,无,,,,烈火,二师兄、哈利波波猪仔变异,是
-31,,无,,,,钱多多,肥肥天使、心心小象仔猪仔变异,是
-32,,无,,,,霓裳仙仙,肥肥馆勋章兑换,否
-33,,无,,,,哆来咪,周报338期兑换、肥肥馆勋章兑换,否
-34,,无,,,,酷仔晶晶,任务领取、肥肥馆勋章兑换,否
-35,,无,,,,美人囡囡,肥肥馆勋章兑换,否
-36,,无,,,,海盗路飞,无,否
-37,,无,,,,幽灵奇奇,肥肥馆勋章兑换,否
-38,,无,,,,迷你巴罗,无,否
-39,,无,,,,花宝猪,肥肥馆勋章兑换,否
-40,,无,,,,金福猪,无,否
-41,,无,,,,企小帅,变异,否
-42,,无,,,,花王鹦,无,否
-43,,无,,,,帝企鹅,无,否
-44,,无,,,,小小四不像,周报338期兑换、肥肥馆勋章兑换,否
-45,,无,,,,圣诞小公公,周报338期兑换,否
-46,,无,,,,小和尚,无,否
-47,,无,,,,宝石猪,任务“少女情怀总是诗-梦醒时分”获取,否
-48,,无,,,,粉红宝石猪,任务“摩灵传说-寒心水牢”获取,否
-49,,无,,,,小禄,无,否
-,,,,,,,,
+,矿区,特产宝石,开采等级,耗费能量,开采时间,矿区图,优势猪种,猪种档案图,其他获取方式,是否有勋章
+0,摩尔城堡,黑曜石,初级,5.0,10.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\摩尔城堡.jpg width=275 height=163>,福仔,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\福仔.jpg width=275 height=163>,无,是
+1,爱心教堂,萤石,初级,5.0,12.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\爱心教堂.jpg width=275 height=163>,憨憨,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\憨憨.jpg width=275 height=163>,无,是
+2,阳光牧场,锆石,初级,6.0,15.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\阳光牧场.jpg width=275 height=163>,小眉,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小眉.jpg width=275 height=163>,无,是
+3,摩尔足球场,日光石,初级,6.0,18.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\摩尔足球场.jpg width=275 height=163>,阿凡达达,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\阿凡达达.jpg width=275 height=163>,无,是
+4,开心农场,月光石,初级,8.0,20.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\开心农场.jpg width=275 height=163>,二师兄,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\二师兄.jpg width=275 height=163>,无,是
+5,米勒大道,绿玉髓,初级,8.0,22.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\米勒大道.jpg width=275 height=163>,小秋,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小秋.jpg width=275 height=163>,无,是
+6,淘淘乐街,虎眼石,初级,10.0,25.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\淘淘乐街.jpg width=275 height=163>,小霸王,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小霸王.jpg width=275 height=163>,无,是
+7,城堡露天花园,蛋白石,初级,10.0,28.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\城堡露天花园.jpg width=275 height=163>,大师兄,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\大师兄.jpg width=275 height=163>,无,是
+8,咕噜艺术街,云母,初级,10.0,30.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\咕噜艺术街.jpg width=275 height=163>,蝙蝠侠,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\蝙蝠侠.jpg width=275 height=163>,无,是
+9,神秘湖码头,碧玺,中级,12.0,60.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\神秘湖码头.jpg width=275 height=163>,美羊羊,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\美羊羊.jpg width=275 height=163>,无,是
+10,神秘湖,翡翠,中级,12.0,65.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\神秘湖.jpg width=275 height=163>,红肠兄,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\红肠兄.jpg width=275 height=163>,无,是
+11,天空树,琥珀,中级,14.0,70.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\天空树.jpg width=275 height=163>,小雪花,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小雪花.jpg width=275 height=163>,无,是
+12,粒粒小广场,托帕石,中级,14.0,75.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\粒粒小广场.jpg width=275 height=163>,魔法小星,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\魔法小星.jpg width=275 height=163>,无,是
+13,西部游乐场,玛瑙,中级,16.0,80.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\西部游乐场.jpg width=275 height=163>,哈利波波,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\哈利波波.jpg width=275 height=163>,无,是
+14,东部游乐场,石榴石,中级,16.0,85.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\东部游乐场.jpg width=275 height=163>,熊猫宝宝,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\熊猫宝宝.jpg width=275 height=163>,无,是
+15,交通署,天河石,中级,18.0,90.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\交通署.jpg width=275 height=163>,圣诞袜袜,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\圣诞袜袜.jpg width=275 height=163>,无,否
+16,拉姆运动场,橄榄石,中级,18.0,100.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\拉姆运动场.jpg width=275 height=163>,狮仔吼吼,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\狮仔吼吼.jpg width=275 height=163>,无,否
+17,拉姆学院,汉白玉,中级,20.0,110.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\拉姆学院.jpg width=275 height=163>,音乐发烧友,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\音乐发烧友.jpg width=275 height=163>,无,是
+18,摩尔大学,紫水晶,中级,20.0,120.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\摩尔大学.jpg width=275 height=163>,企鹅呆呆,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\企鹅呆呆.jpg width=275 height=163>,任务“王子与黑猫-万圣之夜”获取,否
+19,摩尔拉雅山顶,天青石,高级,22.0,180.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\摩尔拉雅山顶.jpg width=275 height=163>,企小贱,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\企小贱.jpg width=275 height=163>,无,否
+20,摩尔拉雅滑冰场,欧泊,高级,22.0,195.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\摩尔拉雅滑冰场.jpg width=275 height=163>,飘飘雪猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\飘飘雪猪.jpg width=275 height=163>,无,否
+21,摩尔拉雅山脚,祖母绿,高级,24.0,210.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\摩尔拉雅山脚.jpg width=275 height=163>,小禄,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小禄.jpg width=275 height=163>,无,是
+22,虫虫谷,尖晶石,高级,24.0,225.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\虫虫谷.jpg width=275 height=163>,心心小象仔,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\心心小象仔.jpg width=275 height=163>,无,是
+23,尼尔拉塔,海蓝宝石,高级,24.0,240.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\尼尔拉塔.jpg width=275 height=163>,肥肥天使,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\肥肥天使.jpg width=275 height=163>,无,是
+24,浆果丛林,红宝石,高级,26.0,255.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\浆果丛林.jpg width=275 height=163>,燕尾蝶,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\燕尾蝶.jpg width=275 height=163>,无,是
+25,前哨站,青绿猫眼,高级,28.0,270.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\前哨站.jpg width=275 height=163>,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\nan.jpg width=275 height=163>,,
+26,黑森林,蓝宝石,高级,30.0,285.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\黑森林.jpg width=275 height=163>,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\nan.jpg width=275 height=163>,,
+27,库拉城堡,钻石,高级,30.0,300.0,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\库拉城堡.jpg width=275 height=163>,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\nan.jpg width=275 height=163>,,
+28,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,香香公主,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\香香公主.jpg width=275 height=163>,阿凡达达、红肠兄、小雪花猪仔变异,是
+29,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,祥云,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\祥云.jpg width=275 height=163>,小眉、魔法小星猪仔变异,是
+30,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,烈火,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\烈火.jpg width=275 height=163>,二师兄、哈利波波猪仔变异,是
+31,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,钱多多,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\钱多多.jpg width=275 height=163>,肥肥天使、心心小象仔猪仔变异,是
+32,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,霓裳仙仙,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\霓裳仙仙.jpg width=275 height=163>,肥肥馆勋章兑换,否
+33,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,哆来咪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\哆来咪.jpg width=275 height=163>,周报338期兑换、肥肥馆勋章兑换,否
+34,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,酷仔晶晶,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\酷仔晶晶.jpg width=275 height=163>,任务领取、肥肥馆勋章兑换,否
+35,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,美人囡囡,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\美人囡囡.jpg width=275 height=163>,肥肥馆勋章兑换,否
+36,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,海盗路飞,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\海盗路飞.jpg width=275 height=163>,无,否
+37,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,幽灵奇奇,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\幽灵奇奇.jpg width=275 height=163>,肥肥馆勋章兑换,否
+38,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,迷你巴罗,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\迷你巴罗.jpg width=275 height=163>,无,否
+39,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,花宝猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\花宝猪.jpg width=275 height=163>,肥肥馆勋章兑换,否
+40,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,金福猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\金福猪.jpg width=275 height=163>,无,否
+41,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,企小帅,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\企小帅.jpg width=275 height=163>,变异,否
+42,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,花王鹦,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\花王鹦.jpg width=275 height=163>,无,否
+43,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,帝企鹅,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\帝企鹅.jpg width=275 height=163>,无,否
+44,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,小小四不像,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小小四不像.jpg width=275 height=163>,周报338期兑换、肥肥馆勋章兑换,否
+45,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,圣诞小公公,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\圣诞小公公.jpg width=275 height=163>,周报338期兑换,否
+46,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,小和尚,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\小和尚.jpg width=275 height=163>,无,否
+47,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,宝石猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\宝石猪.jpg width=275 height=163>,任务“少女情怀总是诗-梦醒时分”获取,否
+48,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,粉红宝石猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\粉红宝石猪.jpg width=275 height=163>,任务“摩灵传说-寒心水牢”获取,否
+49,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,肥肥鱼尾猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\肥肥鱼尾猪.jpg width=275 height=163>,无,否
+50,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,火焰大眼猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\火焰大眼猪.jpg width=275 height=163>,粉红宝石猪猪仔变异,否
+51,,无,,,,<table><img src=F:\GitHub\FeiFeiGuan\Data\Map\nan.jpg width=275 height=163>,食人花花猪,<table><img src=F:\GitHub\FeiFeiGuan\Data\Avatar\食人花花猪.jpg width=275 height=163>,变异,否

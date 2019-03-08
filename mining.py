@@ -106,10 +106,30 @@ def load_file():
         pig2area = pd.merge(area_csv, pig_csv,  on=merge_key, how='outer')
         # pig2area.append(area_csv.loc[area_csv['宝石']])
         # pig2area = pig2area
-        print(pig2area)
+        # print(pig2area)
         pig2area_dict = pig2area.T.to_dict()  # 先转置矩阵再转换成字典
-        print(json.dumps(pig2area_dict, indent=4, ensure_ascii=False))
-        pig2area.to_csv(pig2area_file)
+        maps = os.listdir(map_folder)
+        avatars = os.listdir(avatar_folder)
+        for index, pig2area_info in pig2area_dict.items():
+            # print(index, json.dumps(pig2area_info, indent=4, ensure_ascii=False))
+            pig_name = pig2area_info.get('猪种')
+            map_name = pig2area_info.get('矿区')
+            # print(str(pig_name), str(map_name))
+            try:
+                avatar_path = '{}{}{}'.format(avatar_folder, separator, next(i for i in avatars if str(pig_name) in i))
+                map_path = '{}{}{}'.format(map_folder, separator, next(i for i in maps if str(map_name) in i))
+                pig2area_dict[index]['档案图'] = excel_fmt.format(avatar_path)
+                pig2area_dict[index]['矿区图'] = excel_fmt.format(map_path)
+            except (TypeError, StopIteration):
+                print((pig_name, map_name))
+
+        # print(json.dumps(pig2area_dict, indent=4, ensure_ascii=False))
+        df = pd.DataFrame(pig2area_dict).T
+        df = df[['矿区', '宝石', '开采等级', '耗费能量', '开采时间', '矿区图', '猪种',
+                 '档案图', '其他获取方式', '是否有勋章']]
+        df.rename(columns={'宝石': '特产宝石', '猪种': '优势猪种', '档案图': '猪种档案图'}, inplace=True)
+        df.to_csv(pig2area_file)
+        # pig2area.to_csv(pig2area_file)
 
 
 def convert_core_pandas_to_dict(core_pandas, keys):

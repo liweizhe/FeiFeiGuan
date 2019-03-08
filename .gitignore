@@ -1,3 +1,4 @@
 .idea
 *.pyc
 Data/tmp
+mining.csv
