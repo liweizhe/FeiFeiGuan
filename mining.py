@@ -112,7 +112,7 @@ def merge_areas_and_pigs():
         # markdown
         md = tabulate(pig2area, tablefmt='pipe', headers="keys")
         with open(README, 'w', encoding=coding) as fo:
-            fo.writelines('摩尔庄园肥肥馆攻略{}### 机械工坊{}无图表格，有图表格见Data文件夹下的excel{}{}'.
+            fo.writelines('#摩尔庄园肥肥馆攻略{}### 机械工坊{}无图表格，有图表格见Data文件夹下的excel{}{}'.
                           format(line_break, line_break, line_break, line_break))
             fo.writelines(md)
 
@@ -139,7 +139,6 @@ def merge_areas_and_pigs():
                  '猪种档案图', '其他获取方式', '是否有勋章']]
 
         df.to_csv(pig2area_file)
-
 
 
 def convert_core_pandas_to_dict(core_pandas, keys):

@@ -13,8 +13,8 @@ def gbk2utf8(infile, outfile, working_folder=data_folder, tmp_folder=tmp):
     with open(infile, 'r') as fi, open(outfile, 'w', encoding='UTF-8') as fo:
         for l in fi:
             fo.writelines(l)
-    # os.rename(infile, '{}{}'.format(tmp_folder, infile))
-    # os.rename(outfile, infile)
+    os.rename(infile, '{}gbk_{}'.format(tmp_folder, infile))
+    os.rename(outfile, infile)
     os.chdir('../')
 
 
@@ -41,11 +41,13 @@ def mod_pic_size(width=275, height=163):
 
 
 if __name__ == '__main__':
+    # gbk2utf8('processing_plant.csv', 'plant.csv')
     # gbk2utf8('pig_file.csv', 'pig_file_utf8.csv')
     # gbk2utf8('pig_info.csv', 'pig_info_utf8.csv')
     # gbk2utf8('gem_info.jl', 'gem_info_utf8.jl')
     # rename()
     # if '-' == '-':
     #     print('equal')
-    mod_pic_size()
+    # mod_pic_size()
+    gbk2utf8('成长收益.csv', '成长收益_utf8.csv')
     print('-*-' * 10)
