@@ -111,7 +111,7 @@ def merge_areas_and_pigs():
         pig2area.rename(columns={'宝石': '特产宝石', '猪种': '优势猪种'}, inplace=True)
         # markdown
         md = tabulate(pig2area, tablefmt='pipe', headers="keys")
-        with open(README, 'w', encoding=coding) as fo:
+        with open(README, 'a', encoding=coding) as fo:
             fo.writelines('#摩尔庄园肥肥馆攻略{}### 机械工坊{}无图表格，有图表格见Data文件夹下的excel{}{}'.
                           format(line_break, line_break, line_break, line_break))
             fo.writelines(md)
