@@ -241,7 +241,7 @@ def cmp():
                       format(sorted_column, first_n, breading_days))
         md_n = tabulate(fn, tablefmt='pipe', headers="keys")
         fo.writelines(md_n)
-        fo.writelines('\n前{}天平均到每天的收益:\n\n'.format(breading_days))
+        fo.writelines('\n\n前{}天平均到每天的收益:\n\n'.format(breading_days))
         md_p = tabulate(fp, tablefmt='pipe', headers='keys')
         fo.writelines(md_p)
 
