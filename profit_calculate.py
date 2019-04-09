@@ -87,7 +87,7 @@ def calculate(pig_info, breeding_days=20, feed_time=2, play_time=3, oxytocin_fla
 
     if p_type == 0:
         # 美美猪
-        if pk_flag:
+        if pk_flag and (breed == '圣诞袜袜' or breed == '彼得大帝'):
             # 开启PK，每日最多5次，单次获胜加10魅力
             weight_or_charm += 5 * 10 * breeding_days
             # 演出和PK获胜收益
@@ -236,7 +236,7 @@ def show(net_profit_list, num=10):
 def cmp():
     breeding_days = 60
     sorted_column = 20
-    first_n = 40
+    first_n = 20
 
     # fn = sort_and_get(fn, 20, reverse=False)
     with open('README.md', 'w', encoding='utf-8') as fo:
@@ -245,9 +245,9 @@ def cmp():
         p_results = pd.DataFrame()
 
         # # 逗猪 + 5次pk + 喂营养液
-        # n_df, p_df = gen_profits(max_breeding_days=breeding_days)
-        # n_results = n_results.append(n_df)
-        # p_results = p_results.append(p_df)
+        n_df, p_df = gen_profits(max_breeding_days=breeding_days)
+        n_results = n_results.append(n_df)
+        p_results = p_results.append(p_df)
         # 逗猪 + 无pk + 喂营养液
         n_df, p_df = gen_profits(max_breeding_days=breeding_days, pk_flag=False)
         n_results = n_results.append(n_df)
@@ -268,15 +268,17 @@ def cmp():
         p_results = pd.DataFrame(p_results, columns=headers)
         md_n = tabulate(n_results, tablefmt='pipe', headers="keys")
         md_p = tabulate(p_results, tablefmt='pipe', headers='keys')
-        fo.writelines('\n\n#肥肥馆收益计算\n\n'
-                      '统计了 {} 天的数据。\n\n'
-                      '##总收益排行前 {}\n\n'
-                      '根据第 {} 天收益排行\n\n'
+        fo.writelines('#摩尔庄园肥肥馆攻略\n\n'
+                      '##1 收益计算\n\n'
+                      '统计了 {} 天的数据，其中美美猪只计算了“圣诞袜袜”和“彼得大帝”，'
+                      '且排出了限量或绝版猪的计算（如帝企鹅、花宝猪）。\n\n'
+                      '###1.1 总收益排行前 {}\n\n'
+                      '根据第 {} 天收益进行排行\n\n'
                       '肝度值分别代表：逗猪的次数、是否 pk (肥肥猪均为 0)、是否使用营养液，\n\n'
-                      '如：如肝度值311，代表每天逗 3 次，参与高级美美猪PK（且5次全胜），喂营养液（五次）\n\n'.
+                      '如：肝度值311，代表每天逗 3 次，参与高级美美猪PK（且5次全胜），喂营养液（五次）\n\n'.
                       format(breeding_days, first_n, sorted_column))
         fo.writelines(md_n)
-        fo.writelines('\n\n###平均到每天的收益\n\n')
+        fo.writelines('\n\n###1.2 平均到每天的收益\n\n根据1.1的排行，计算每一天的平均收益，以便找出养猪最优时间。\n\n')
         fo.writelines(md_p)
         fo.writelines('\n\n')
 
