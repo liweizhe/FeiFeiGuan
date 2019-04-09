@@ -112,8 +112,8 @@ def merge_areas_and_pigs():
         # markdown
         md = tabulate(pig2area, tablefmt='pipe', headers="keys")
         with open(README, 'a', encoding=coding) as fo:
-            fo.writelines('##2 机械工坊\n\n'
-                          '###2.1 挖矿偏好与猪种获取方式{}{}无图表格，有图表格见Data文件夹下的excel{}{}'.
+            fo.writelines('## 2 机械工坊\n\n'
+                          '### 2.1 挖矿偏好与猪种获取方式{}{}无图表格，有图表格见Data文件夹下的excel{}{}'.
                           format(line_break, line_break, line_break, line_break))
             fo.writelines(md)
             fo.writelines('{}{}'.format(line_break, line_break))

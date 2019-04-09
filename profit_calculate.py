@@ -268,17 +268,17 @@ def cmp():
         p_results = pd.DataFrame(p_results, columns=headers)
         md_n = tabulate(n_results, tablefmt='pipe', headers="keys")
         md_p = tabulate(p_results, tablefmt='pipe', headers='keys')
-        fo.writelines('#摩尔庄园肥肥馆攻略\n\n'
-                      '##1 收益计算\n\n'
+        fo.writelines('# 摩尔庄园肥肥馆攻略\n\n'
+                      '## 1 收益计算\n\n'
                       '统计了 {} 天的数据，其中美美猪只计算了“圣诞袜袜”和“彼得大帝”，'
                       '且排出了限量或绝版猪的计算（如帝企鹅、花宝猪）。\n\n'
-                      '###1.1 总收益排行前 {}\n\n'
+                      '### 1.1 总收益排行前 {}\n\n'
                       '根据第 {} 天收益进行排行\n\n'
                       '肝度值分别代表：逗猪的次数、是否 pk (肥肥猪均为 0)、是否使用营养液，\n\n'
                       '如：肝度值311，代表每天逗 3 次，参与高级美美猪PK（且5次全胜），喂营养液（五次）\n\n'.
                       format(breeding_days, first_n, sorted_column))
         fo.writelines(md_n)
-        fo.writelines('\n\n###1.2 平均到每天的收益\n\n根据1.1的排行，计算每一天的平均收益，以便找出养猪最优时间。\n\n')
+        fo.writelines('\n\n### 1.2 平均到每天的收益\n\n根据1.1的排行，计算每一天的平均收益，以便找出养猪最优时间。\n\n')
         fo.writelines(md_p)
         fo.writelines('\n\n')
 
